@@ -1,8 +1,0 @@
-main.c: In function ‘main’:
-main.c:6:13: warning: format ‘%f’ expects argument of type ‘float *’, but argument 2 has type ‘int *’ [-Wformat=]
-    6 |     scanf("%f", &n);
-      |            ~^   ~~
-      |             |   |
-      |             |   int *
-      |             float *
-      |            %d
