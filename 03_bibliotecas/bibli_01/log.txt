@@ -60,62 +60,73 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/result_linking.txt
  - Pasta esfera_utils:
  - Gerando o binário prog linkando com o(s) arquivo(s) esfera_utils/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/esfera_utils/result_linking.txt
- - Arquivos Linkados: Erro! 1 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta main / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta main / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta main / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Nota para a pasta main (máximo 3.34) - de - % de 3.34: .
  -----
  - Pasta completo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta completo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta completo / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta completo / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Nota para a pasta completo (máximo 3.33) - de - % de 3.33: .
  -----
  - Pasta esfera_utils / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/esfera_utils/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta esfera_utils / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/esfera_utils/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta esfera_utils / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/esfera_utils/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Pasta esfera_utils / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/esfera_utils/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): (soma total) - % (desconto do valgrind) = de pontos.
  - Nota para a pasta esfera_utils (máximo 3.33) - de - % de 3.33: .
  -----
@@ -128,18 +139,18 @@ RESULTADOS FINAIS
 Aluno: AndreSantiagoRibeiro
  - Arquivos Esperados Corretos: 3 de 3
  - Pastas Compiladas Corretamente: 3 de 3 
- - Pastas Linkadas Corretamente: 2 de 3
+ - Pastas Linkadas Corretamente: 3 de 3
  - Teste main
- - Resultados corretos: 0 de 4
- - Valgrinds corretos: 0 de 4
+ - Resultados corretos: 4 de 4
+ - Valgrinds corretos: 4 de 4
  - Nota de AndreSantiagoRibeiro para o teste main: 
  - Teste completo
- - Resultados corretos: 0 de 4
- - Valgrinds corretos: 0 de 4
+ - Resultados corretos: 4 de 4
+ - Valgrinds corretos: 4 de 4
  - Nota de AndreSantiagoRibeiro para o teste completo: 
  - Teste esfera_utils
- - Resultados corretos: 0 de 4
- - Valgrinds corretos: 0 de 4
+ - Resultados corretos: 4 de 4
+ - Valgrinds corretos: 4 de 4
  - Nota de AndreSantiagoRibeiro para o teste esfera_utils: 
  - Nota de AndreSantiagoRibeiro: 0+()+()+()
  - Nota de AndreSantiagoRibeiro: 
