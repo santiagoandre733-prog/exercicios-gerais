@@ -97,9 +97,50 @@ int calculaDiasAteMes(int mes, int ano){
         soma += numeroDiasMes(i, ano);
     }
     return soma;
-
 }
 
 int calculaDiferencaDias(int dia1, int mes1, int ano1, int dia2, int mes2, int ano2){
+    int difDia, somaDia = 0, i;
+    int dias1, dias2;
 
+    dias1 = calculaDiasAteMes(mes1, ano1) + dia1;
+    dias2 = calculaDiasAteMes(mes2, ano2) + dia2;
+
+    if(ano1 > ano2){
+        for(i = ano1; i < ano2; i++){
+            if(verificaBissexto(i)){
+                somaDia += 366;
+            }
+            else {
+                somaDia += 365;
+            }
+        }
+        difDia = dias1 - dias2;
+    }
+    else if(ano2 > ano1){
+        for(i = ano2; i < ano1; i++){
+            if(verificaBissexto(i)){
+                somaDia += 366;
+            }
+            else {
+                somaDia += 365;
+            }
+        }
+        difDia = dias2 - dias1;
+    }
+    else {
+        if(dias1 > dias2){
+            difDia = dias1 - dias2;
+        }
+        else if(dias2 > dias1){
+            difDia = dias2 - dias1;
+        }
+        else {
+            difDia = 0;
+        }
+    }
+
+    somaDia += difDia;
+
+    return somaDia;
 }
