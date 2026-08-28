@@ -1,0 +1,3 @@
+/usr/bin/ld: Resultados/AndreSantiagoRibeiro/completo/main.o: in function `main':
+main.c:(.text+0x7a): undefined reference to `imprimeData'
+collect2: error: ld returned 1 exit status
