@@ -8,7 +8,7 @@ int main(){
     if(verificaDataValida(dia, mes, ano)){
 
         printf("Data informada: ");
-        imprimeData(dia, mes, ano);
+        imprimeDataExtenso(dia, mes, ano);
 
         if(verificaBissexto(ano)){
             printf("O ano informado eh bissexto\n");
@@ -21,6 +21,7 @@ int main(){
 
         printf("A data seguinte eh: ");
         imprimeProximaData(dia, mes, ano);
+        printf("\n");
     }
     else {
         printf("A data informada eh invalida\n");

@@ -11,6 +11,10 @@ int verificaDataValida(int dia, int mes, int ano){
     return 1;
 }
 
+void imprimeData(int dia, int mes, int ano){
+    printf("%02d/%02d/%d", dia, mes, ano);
+}
+
 void imprimeMesExtenso(int mes){
     if(mes == 1){
         printf("Janeiro");
@@ -178,6 +182,6 @@ void imprimeProximaData(int dia, int mes, int ano){
         }
     }
 
-    printf("%d/%d/%d", dia, mes, ano);
+    imprimeData(dia, mes, ano);
     return;
 }
