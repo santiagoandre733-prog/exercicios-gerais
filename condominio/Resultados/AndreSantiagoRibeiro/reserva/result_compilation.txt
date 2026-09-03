@@ -1,0 +1,15 @@
+reserva.c: In function ‘imprimeReserva’:
+reserva.c:32:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   32 |     printf("--------- RESERVA -----------\n");
+      |     ^~~~~~
+reserva.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "reserva.h"
+  +++ |+#include <stdio.h>
+    2 | 
+reserva.c:32:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   32 |     printf("--------- RESERVA -----------\n");
+      |     ^~~~~~
+reserva.c:32:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+reserva.c:40:9: warning: unused variable ‘n’ [-Wunused-variable]
+   40 |     int n;
+      |         ^

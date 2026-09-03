@@ -1,3 +1,11 @@
+main.c: In function ‘ObtemMoradorPeloCPF’:
+main.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+   53 | }
+      | ^
+main.c: In function ‘ObtemAreaPeloID’:
+main.c:71:1: warning: control reaches end of non-void function [-Wreturn-type]
+   71 | }
+      | ^
 morador.c: In function ‘lerMorador’:
 morador.c:7:15: warning: format ‘%[^
    ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
@@ -17,3 +25,18 @@ morador.c:11:15: warning: format ‘%[^
       |            ~~~^~      ~~~~~~~~~~~~~~~
       |               |       |
       |               char *  char (*)[10]
+reserva.c: In function ‘imprimeReserva’:
+reserva.c:32:5: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   32 |     printf("--------- RESERVA -----------\n");
+      |     ^~~~~~
+reserva.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+    1 | #include "reserva.h"
+  +++ |+#include <stdio.h>
+    2 | 
+reserva.c:32:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   32 |     printf("--------- RESERVA -----------\n");
+      |     ^~~~~~
+reserva.c:32:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+reserva.c:40:9: warning: unused variable ‘n’ [-Wunused-variable]
+   40 |     int n;
+      |         ^
