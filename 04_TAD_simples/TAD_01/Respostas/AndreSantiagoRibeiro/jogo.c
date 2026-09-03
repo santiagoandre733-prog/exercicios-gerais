@@ -4,15 +4,17 @@
 #include "tabuleiro.h"
 
 tJogo CriaJogo(){
+    int i, j;
     tJogo jogo;
     jogo.jogador1 = CriaJogador(ID_JOGADOR_1);
     jogo.jogador2 = CriaJogador(ID_JOGADOR_2);
     jogo.tabuleiro = CriaTabuleiro();
+    for(i = 0; i < TAM_TABULEIRO; i)
 }
 
 void ComecaJogo(tJogo jogo){
     int id = ID_JOGADOR_1;
-    //do {
+    do {
         jogo = CriaJogo();
         while(!AcabouJogo(jogo)){
             if(id == ID_JOGADOR_1){
@@ -24,7 +26,7 @@ void ComecaJogo(tJogo jogo){
                 id = ID_JOGADOR_1;
             }
         }
-    //} while(ContinuaJogo());
+    } while(ContinuaJogo());
 }
 
 int AcabouJogo(tJogo jogo){
