@@ -4,12 +4,11 @@
 #include "tabuleiro.h"
 
 tJogo CriaJogo(){
-    int i, j;
     tJogo jogo;
     jogo.jogador1 = CriaJogador(ID_JOGADOR_1);
     jogo.jogador2 = CriaJogador(ID_JOGADOR_2);
     jogo.tabuleiro = CriaTabuleiro();
-    for(i = 0; i < TAM_TABULEIRO; i)
+    return jogo;
 }
 
 void ComecaJogo(tJogo jogo){
@@ -25,6 +24,7 @@ void ComecaJogo(tJogo jogo){
                 jogo.tabuleiro = JogaJogador(jogo.jogador2, jogo.tabuleiro);
                 id = ID_JOGADOR_1;
             }
+            ImprimeTabuleiro(jogo.tabuleiro);
         }
     } while(ContinuaJogo());
 }

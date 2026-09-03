@@ -1,0 +1,19 @@
+morador.c: In function ‘lerMorador’:
+morador.c:7:15: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[100]’ [-Wformat=]
+    7 |     scanf("%[^\n]\n", &m.nome);
+      |            ~~~^~      ~~~~~~~
+      |               |       |
+      |               char *  char (*)[100]
+morador.c:8:15: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[15]’ [-Wformat=]
+    8 |     scanf("%[^\n]\n", &m.cpf);
+      |            ~~~^~      ~~~~~~
+      |               |       |
+      |               char *  char (*)[15]
+morador.c:11:15: warning: format ‘%[^
+   ’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[10]’ [-Wformat=]
+   11 |     scanf("%[^\n]\n", &m.idResidencia);
+      |            ~~~^~      ~~~~~~~~~~~~~~~
+      |               |       |
+      |               char *  char (*)[10]
