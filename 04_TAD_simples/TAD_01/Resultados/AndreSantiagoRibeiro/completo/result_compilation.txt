@@ -1,0 +1,27 @@
+jogador.c: In function ‘JogaJogador’:
+jogador.c:20:13: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   20 |             exit(1);
+      |             ^~~~
+jogador.c:4:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+    3 | #include "jogador.h"
+  +++ |+#include <stdlib.h>
+    4 | #include "tabuleiro.h"
+jogador.c:20:13: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   20 |             exit(1);
+      |             ^~~~
+jogador.c:20:13: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+jogo.c: In function ‘CriaJogo’:
+jogo.c:7:11: warning: variable ‘jogo’ set but not used [-Wunused-but-set-variable]
+    7 |     tJogo jogo;
+      |           ^~~~
+jogo.c:11:1: warning: control reaches end of non-void function [-Wreturn-type]
+   11 | }
+      | ^
+jogo.c: In function ‘ContinuaJogo’:
+jogo.c:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+   56 | }
+      | ^
+tabuleiro.c: In function ‘EstaMarcadaPosicaoPecaTabuleiro’:
+tabuleiro.c:62:1: warning: control reaches end of non-void function [-Wreturn-type]
+   62 | }
+      | ^

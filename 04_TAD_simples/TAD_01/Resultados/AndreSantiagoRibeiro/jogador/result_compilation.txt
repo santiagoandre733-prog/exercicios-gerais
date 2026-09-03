@@ -1,0 +1,12 @@
+jogador.c: In function ‘JogaJogador’:
+jogador.c:20:13: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   20 |             exit(1);
+      |             ^~~~
+jogador.c:4:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+    3 | #include "jogador.h"
+  +++ |+#include <stdlib.h>
+    4 | #include "tabuleiro.h"
+jogador.c:20:13: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   20 |             exit(1);
+      |             ^~~~
+jogador.c:20:13: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’

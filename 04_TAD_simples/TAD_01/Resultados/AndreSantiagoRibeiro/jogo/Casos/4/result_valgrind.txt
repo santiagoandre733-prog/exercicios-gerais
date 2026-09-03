@@ -1,0 +1,130 @@
+==124846== Memcheck, a memory error detector
+==124846== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==124846== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==124846== Command: Resultados/AndreSantiagoRibeiro/jogo/prog Resultados/AndreSantiagoRibeiro/jogo/Casos/4
+==124846== Parent PID: 124845
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x1094F9: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A37: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x10952D: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A37: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x1095A6: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A37: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x10961F: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A37: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x109698: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A37: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x109711: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A37: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x10978A: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A37: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x109803: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A37: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x109879: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A37: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x1094F9: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A65: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x10952D: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A65: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x1095A6: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A65: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x10961F: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A65: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x109698: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A65: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x109711: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A65: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x10978A: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A65: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x109803: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A65: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x109879: VenceuJogador (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A65: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== Conditional jump or move depends on uninitialised value(s)
+==124846==    at 0x109D5C: TemPosicaoLivreTabuleiro (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109A90: AcabouJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x1099F8: ComecaJogo (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846==    by 0x109B7B: main (in /workspaces/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/AndreSantiagoRibeiro/jogo/prog)
+==124846== 
+==124846== 
+==124846== HEAP SUMMARY:
+==124846==     in use at exit: 0 bytes in 0 blocks
+==124846==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==124846== 
+==124846== All heap blocks were freed -- no leaks are possible
+==124846== 
+==124846== Use --track-origins=yes to see where uninitialised values come from
+==124846== For lists of detected and suppressed errors, rerun with: -s
+==124846== ERROR SUMMARY: 1728 errors from 19 contexts (suppressed: 0 from 0)
