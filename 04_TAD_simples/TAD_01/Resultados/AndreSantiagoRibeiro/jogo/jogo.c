@@ -12,21 +12,20 @@ tJogo CriaJogo(){
 }
 
 void ComecaJogo(tJogo jogo){
-    int id = ID_JOGADOR_1;
-    do {
-        jogo = CriaJogo();
-        while(!AcabouJogo(jogo)){
-            if(id == ID_JOGADOR_1){
-                jogo.tabuleiro = JogaJogador(jogo.jogador1, jogo.tabuleiro);
-                id = ID_JOGADOR_2;
-            }
-            else if(id == ID_JOGADOR_2){
-                jogo.tabuleiro = JogaJogador(jogo.jogador2, jogo.tabuleiro);
-                id = ID_JOGADOR_1;
-            }
-            ImprimeTabuleiro(jogo.tabuleiro);
+    int id;
+
+    id = ID_JOGADOR_1;
+    while(!AcabouJogo(jogo)){
+        if(id == ID_JOGADOR_1){
+            jogo.tabuleiro = JogaJogador(jogo.jogador1, jogo.tabuleiro);
+            id = ID_JOGADOR_2;
         }
-    } while(ContinuaJogo());
+        else if(id == ID_JOGADOR_2){
+            jogo.tabuleiro = JogaJogador(jogo.jogador2, jogo.tabuleiro);
+            id = ID_JOGADOR_1;
+        }
+        ImprimeTabuleiro(jogo.tabuleiro);
+    }
 }
 
 int AcabouJogo(tJogo jogo){
@@ -48,7 +47,10 @@ int AcabouJogo(tJogo jogo){
 int ContinuaJogo(){
     char c;
     printf("Jogar novamente? (s,n)\n");
-    scanf("%c ", &c);
+    do {
+        scanf("%c", &c);
+    } while(c != 's' && c != 'n');
+    scanf("\n");
     if(c == 's'){
         return 1;
     }

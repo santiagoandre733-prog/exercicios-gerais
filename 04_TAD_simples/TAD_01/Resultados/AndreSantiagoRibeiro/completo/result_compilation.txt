@@ -11,8 +11,8 @@ jogador.c:20:13: warning: incompatible implicit declaration of built-in function
       |             ^~~~
 jogador.c:20:13: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
 jogo.c: In function ‘ContinuaJogo’:
-jogo.c:58:1: warning: control reaches end of non-void function [-Wreturn-type]
-   58 | }
+jogo.c:60:1: warning: control reaches end of non-void function [-Wreturn-type]
+   60 | }
       | ^
 tabuleiro.c: In function ‘EstaMarcadaPosicaoPecaTabuleiro’:
 tabuleiro.c:62:1: warning: control reaches end of non-void function [-Wreturn-type]
