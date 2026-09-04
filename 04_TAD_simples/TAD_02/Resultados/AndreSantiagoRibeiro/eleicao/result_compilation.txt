@@ -1,0 +1,21 @@
+eleicao.c: In function ‘InicializaEleicao’:
+eleicao.c:29:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   29 |         exit(1);
+      |         ^~~~
+eleicao.c:3:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+    2 | #include <stdio.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+eleicao.c:29:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   29 |         exit(1);
+      |         ^~~~
+eleicao.c:29:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+eleicao.c: In function ‘RealizaEleicao’:
+eleicao.c:45:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   45 |         exit(1);
+      |         ^~~~
+eleicao.c:45:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+eleicao.c:58:17: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   58 |                 exit(1);
+      |                 ^~~~
+eleicao.c:58:17: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
