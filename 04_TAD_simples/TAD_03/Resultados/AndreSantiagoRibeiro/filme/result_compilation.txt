@@ -1,0 +1,6 @@
+filme.c: In function ‘leFilme’:
+filme.c:20:15: warning: format ‘%[^,’ expects argument of type ‘char *’, but argument 2 has type ‘char (*)[50]’ [-Wformat=]
+   20 |     scanf("%[^,],%d,%d ", &nome, &valor, &quantidade);
+      |            ~~~^           ~~~~~
+      |               |           |
+      |               char *      char (*)[50]
