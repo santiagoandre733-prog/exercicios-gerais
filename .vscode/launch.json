@@ -5,7 +5,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/prog",
-            "args": ["<", "${fileDirname}/Casos/1/entrada.txt"],
+            "args": ["<", "${fileDirname}/Casos/8/entrada.txt"],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
