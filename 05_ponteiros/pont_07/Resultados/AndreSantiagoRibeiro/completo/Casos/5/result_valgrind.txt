@@ -1,41 +1,15 @@
-==124266== Memcheck, a memory error detector
-==124266== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==124266== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==124266== Command: Resultados/AndreSantiagoRibeiro/completo/prog Resultados/AndreSantiagoRibeiro/completo/Casos/5
-==124266== Parent PID: 124265
-==124266== 
-==124266== Invalid write of size 4
-==124266==    at 0x48EA146: __vfscanf_internal (vfscanf-internal.c:1976)
-==124266==    by 0x48D9EC5: __isoc99_scanf (isoc99_scanf.c:30)
-==124266==    by 0x1093CB: trocarDataEvento (in /home/asribeiro/Downloads/exercicios-gerais/05_ponteiros/pont_07/Resultados/AndreSantiagoRibeiro/completo/prog)
-==124266==    by 0x109688: main (in /home/asribeiro/Downloads/exercicios-gerais/05_ponteiros/pont_07/Resultados/AndreSantiagoRibeiro/completo/prog)
-==124266==  Address 0x1fff025454 is not stack'd, malloc'd or (recently) free'd
-==124266== 
-==124266== 
-==124266== Process terminating with default action of signal 11 (SIGSEGV)
-==124266==  Access not within mapped region at address 0x1FFF025454
-==124266==    at 0x48EA146: __vfscanf_internal (vfscanf-internal.c:1976)
-==124266==    by 0x48D9EC5: __isoc99_scanf (isoc99_scanf.c:30)
-==124266==    by 0x1093CB: trocarDataEvento (in /home/asribeiro/Downloads/exercicios-gerais/05_ponteiros/pont_07/Resultados/AndreSantiagoRibeiro/completo/prog)
-==124266==    by 0x109688: main (in /home/asribeiro/Downloads/exercicios-gerais/05_ponteiros/pont_07/Resultados/AndreSantiagoRibeiro/completo/prog)
-==124266==  If you believe this happened as a result of a stack
-==124266==  overflow in your program's main thread (unlikely but
-==124266==  possible), you can try to increase the size of the
-==124266==  main thread stack using the --main-stacksize= flag.
-==124266==  The main thread stack size used in this run was 8388608.
-==124266== 
-==124266== HEAP SUMMARY:
-==124266==     in use at exit: 8,192 bytes in 2 blocks
-==124266==   total heap usage: 2 allocs, 0 frees, 8,192 bytes allocated
-==124266== 
-==124266== LEAK SUMMARY:
-==124266==    definitely lost: 0 bytes in 0 blocks
-==124266==    indirectly lost: 0 bytes in 0 blocks
-==124266==      possibly lost: 0 bytes in 0 blocks
-==124266==    still reachable: 8,192 bytes in 2 blocks
-==124266==         suppressed: 0 bytes in 0 blocks
-==124266== Reachable blocks (those to which a pointer was found) are not shown.
-==124266== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==124266== 
-==124266== For lists of detected and suppressed errors, rerun with: -s
-==124266== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==89654== Memcheck, a memory error detector
+==89654== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==89654== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==89654== Command: Resultados/AndreSantiagoRibeiro/completo/prog Resultados/AndreSantiagoRibeiro/completo/Casos/5
+==89654== Parent PID: 89653
+==89654== 
+==89654== 
+==89654== HEAP SUMMARY:
+==89654==     in use at exit: 0 bytes in 0 blocks
+==89654==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==89654== 
+==89654== All heap blocks were freed -- no leaks are possible
+==89654== 
+==89654== For lists of detected and suppressed errors, rerun with: -s
+==89654== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

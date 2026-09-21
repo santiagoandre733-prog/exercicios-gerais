@@ -123,20 +123,20 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 5:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/Casos/5/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 1 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 6:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/Casos/6/result_valgrind.txt.
- - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 7:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/Casos/7/result_valgrind.txt.
- - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta completo (máximo 3.34) - 60.00 de 70 - 85.00% de 3.34: 2.83.
+ - Nota para a pasta completo (máximo 3.34) - 70.00 de 70 - 100.00% de 3.34: 3.34.
  -----
  - Pasta evento / Caso 1:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/evento/Casos/1/result_valgrind.txt.
@@ -160,20 +160,20 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta evento / Caso 5:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/evento/Casos/5/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2, frees: 0, errors: 1 | Desconto do valgrind 50.00%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta evento / Caso 6:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/evento/Casos/6/result_valgrind.txt.
- - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta evento / Caso 7:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/evento/Casos/7/result_valgrind.txt.
- - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 2, frees: 2, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
- - Nota para a pasta evento (máximo 3.33) - 60.00 de 70 - 85.00% de 3.33: 2.83.
+ - Nota para a pasta evento (máximo 3.33) - 70.00 de 70 - 100.00% de 3.33: 3.33.
  -----
 
 #######################################
@@ -190,15 +190,15 @@ Aluno: AndreSantiagoRibeiro
  - Valgrinds corretos: 7 de 7
  - Nota de AndreSantiagoRibeiro para o teste main: 3.33
  - Teste completo
- - Resultados corretos: 6 de 7
- - Valgrinds corretos: 6 de 7
- - Nota de AndreSantiagoRibeiro para o teste completo: 2.83
+ - Resultados corretos: 7 de 7
+ - Valgrinds corretos: 7 de 7
+ - Nota de AndreSantiagoRibeiro para o teste completo: 3.34
  - Teste evento
- - Resultados corretos: 6 de 7
- - Valgrinds corretos: 6 de 7
- - Nota de AndreSantiagoRibeiro para o teste evento: 2.83
- - Nota de AndreSantiagoRibeiro: 0+(3.33)+(2.83)+(2.83)
- - Nota de AndreSantiagoRibeiro: 8.99
+ - Resultados corretos: 7 de 7
+ - Valgrinds corretos: 7 de 7
+ - Nota de AndreSantiagoRibeiro para o teste evento: 3.33
+ - Nota de AndreSantiagoRibeiro: 0+(3.33)+(3.33)+(3.34)
+ - Nota de AndreSantiagoRibeiro: 10.00
 
 ----------------------------------------------------------------------------
 
