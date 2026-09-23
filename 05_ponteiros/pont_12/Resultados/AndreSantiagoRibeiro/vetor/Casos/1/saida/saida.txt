@@ -1,1 +1,2 @@
-timeout: the monitored command dumped core
+Soma: 55
+Produto: 3628800
