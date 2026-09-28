@@ -3,7 +3,7 @@
 #include "utils.h"
 
 int **CriaMatriz(int linhas, int colunas){
-    int **matriz = malloc(linhas * sizeof(int));
+    int **matriz = malloc(linhas * sizeof(int *));
     int i;
     for(i = 0; i < linhas; i++){
         matriz[i] = malloc(colunas * sizeof(int));
