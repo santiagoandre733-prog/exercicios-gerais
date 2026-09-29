@@ -13,8 +13,11 @@ char *CriaVetor(int tamanho){
 }
 
 void LeVetor(char *vetor, int tamanho){
+    char c;
     while(tamanho > 0){
-        scanf("%c", vetor);
+        scanf("%c", &c);
+        if(c == '\n') break;
+        *vetor = c;
         vetor++;
         tamanho--;
     }
