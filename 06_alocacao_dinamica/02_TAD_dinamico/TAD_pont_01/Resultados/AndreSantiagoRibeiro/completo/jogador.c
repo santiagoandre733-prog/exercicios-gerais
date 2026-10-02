@@ -15,16 +15,21 @@ void DestroiJogador(tJogador* jogador){
 
 void JogaJogador(tJogador* jogador, tTabuleiro* tabuleiro){
     tJogada *jogada = CriaJogada();
-    LeJogada(jogada);
-    if(!EhPosicaoValidaTabuleiro(ObtemJogadaX(jogada), ObtemJogadaY(jogada))){
-        DestroiJogada(jogada);
-        return;
-    }
-    if(!EstaLivrePosicaoTabuleiro(tabuleiro, ObtemJogadaX(jogada), ObtemJogadaY(jogada))){
-        DestroiJogada(jogada);
-        return;
+    while(1){
+        printf("Jogador %d\n", jogador->id);
+        LeJogada(jogada);
+        if(!EhPosicaoValidaTabuleiro(ObtemJogadaX(jogada), ObtemJogadaY(jogada))){
+            printf("Posicao invalida (FORA DO TABULEIRO - [%d,%d] )!\n", ObtemJogadaX(jogada), ObtemJogadaY(jogada));
+            continue;
+        }
+        if(!EstaLivrePosicaoTabuleiro(tabuleiro, ObtemJogadaX(jogada), ObtemJogadaY(jogada))){
+            printf("Posicao invalida (OCUPADA - [%d,%d] )!\n", ObtemJogadaX(jogada), ObtemJogadaY(jogada));
+            continue;
+        }
+        break;
     }
     MarcaPosicaoTabuleiro(tabuleiro, jogador->id, ObtemJogadaX(jogada), ObtemJogadaY(jogada));
+    printf("Jogada [%d,%d]!\n", ObtemJogadaX(jogada), ObtemJogadaY(jogada));
     DestroiJogada(jogada);
 }
 
