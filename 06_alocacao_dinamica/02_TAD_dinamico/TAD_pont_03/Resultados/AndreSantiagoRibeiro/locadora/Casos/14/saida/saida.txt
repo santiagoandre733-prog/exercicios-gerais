@@ -1,1 +1,26 @@
-valgrind: Resultados/AndreSantiagoRibeiro/locadora/prog: No such file or directory
+Filme cadastrado 2 - Tomb Raider
+
+Total de filmes alugados: 0 com custo de R$0
+
+~ESTOQUE~
+3 - Sword Fish Fitas em estoque: 1
+
+Filme cadastrado 4 - Shrek
+
+~ESTOQUE~
+1 - Donnie Darko Fitas em estoque: 2
+3 - Sword Fish Fitas em estoque: 1
+
+Total de filmes alugados: 0 com custo de R$0
+
+Total de filmes alugados: 0 com custo de R$0
+
+
+Total de filmes alugados: 0 com custo de R$0
+
+Total de filmes alugados: 0 com custo de R$0
+
+
+~ESTOQUE~
+1 - Donnie Darko Fitas em estoque: 2
+3 - Sword Fish Fitas em estoque: 1

@@ -1,1 +1,6 @@
-valgrind: Resultados/AndreSantiagoRibeiro/locadora/prog: No such file or directory
+Filme cadastrado 1 - Final Fantasy
+
+Total de filmes alugados: 1 com custo de R$4
+
+~ESTOQUE~
+2 - Shrek Fitas em estoque: 0

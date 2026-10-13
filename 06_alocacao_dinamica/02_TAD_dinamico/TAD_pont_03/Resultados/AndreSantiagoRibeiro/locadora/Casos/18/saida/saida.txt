@@ -1,1 +1,43 @@
-valgrind: Resultados/AndreSantiagoRibeiro/locadora/prog: No such file or directory
+Filme cadastrado 1 - Hannibal
+
+~ESTOQUE~
+2 - Jurassic Parc Fitas em estoque: 4
+
+Total de filmes alugados: 1 com custo de R$7
+
+~ESTOQUE~
+2 - Jurassic Parc Fitas em estoque: 3
+
+
+~ESTOQUE~
+2 - Jurassic Parc Fitas em estoque: 3
+
+Filme 2 - Jurassic Parc Devolvido!
+
+Total de filmes alugados: 0 com custo de R$0
+
+Filme cadastrado 15 - Shrek
+
+Total de filmes alugados: 1 com custo de R$4
+
+
+~ESTOQUE~
+2 - Jurassic Parc Fitas em estoque: 4
+15 - Shrek Fitas em estoque: 0
+
+Total de filmes alugados: 2 com custo de R$14
+
+Total de filmes alugados: 0 com custo de R$0
+
+~ESTOQUE~
+2 - Jurassic Parc Fitas em estoque: 2
+15 - Shrek Fitas em estoque: 0
+
+Filme 2 - Jurassic Parc Devolvido!
+
+Filme 2 - Jurassic Parc Devolvido!
+
+~ESTOQUE~
+2 - Jurassic Parc Fitas em estoque: 4
+15 - Shrek Fitas em estoque: 0
+Lucro total R$21

@@ -1,1 +1,44 @@
-valgrind: Resultados/AndreSantiagoRibeiro/locadora/prog: No such file or directory
+Filme cadastrado 21 - The Last Castle
+
+~ESTOQUE~
+25 - Tomb Raider Fitas em estoque: 2
+
+Total de filmes alugados: 0 com custo de R$0
+
+Total de filmes alugados: 0 com custo de R$0
+
+Total de filmes alugados: 1 com custo de R$7
+
+Total de filmes alugados: 1 com custo de R$7
+
+~ESTOQUE~
+25 - Tomb Raider Fitas em estoque: 0
+
+Filme cadastrado 26 - Vanilla Sky
+
+~ESTOQUE~
+30 - Jimmy Neutron Fitas em estoque: 10
+25 - Tomb Raider Fitas em estoque: 0
+
+Total de filmes alugados: 0 com custo de R$0
+
+Filme 25 - Tomb Raider Devolvido!
+
+Total de filmes alugados: 1 com custo de R$5
+
+
+Filme 25 - Tomb Raider Devolvido!
+
+
+Total de filmes alugados: 1 com custo de R$5
+
+Total de filmes alugados: 1 com custo de R$5
+
+Total de filmes alugados: 1 com custo de R$5
+
+Filme 30 - Jimmy Neutron Devolvido!
+
+~ESTOQUE~
+30 - Jimmy Neutron Fitas em estoque: 7
+25 - Tomb Raider Fitas em estoque: 2
+Lucro total R$19
