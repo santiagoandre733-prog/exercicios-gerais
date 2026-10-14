@@ -14,6 +14,7 @@ void DestruirLocadora (tLocadora* locadora){
     for(i = 0; i < locadora->numFilmes; i++){
         DestruirFilme(locadora->filme[i]);
     }
+    free(locadora->filme);
     free(locadora);
 }
 
@@ -41,12 +42,15 @@ void CadastrarFilmeLocadora (tLocadora *locadora, tFilme *filme){
 }
 
 void LerCadastroLocadora (tLocadora* Locadora){
-    tFilme *filme = CriarFilme();
     int codigo;
     while(scanf("%d,", &codigo) == 1){
+        tFilme *filme = CriarFilme();
         LeFilme(filme, codigo);
         if(!VerificarFilmeCadastrado(Locadora, codigo)){
             CadastrarFilmeLocadora(Locadora, filme);
+        }
+        else {
+            DestruirFilme(filme);
         }
     }
 }
@@ -55,16 +59,28 @@ void AlugarFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCodi
     int i, j;
     int custo = 0, qtd = 0;
     for(i = 0; i < quantidadeCodigos; i++){
+        int vef = 0;
         for(j = 0; j < locadora->numFilmes; j++){
             if(EhMesmoCodigoFilme(locadora->filme[j], codigos[i])){
-                AlugarFilme(locadora->filme[j]);
-                custo += ObterValorFilme(locadora->filme[j]);
-                qtd++;
+                vef = 1;
+                if(ObterQtdEstoqueFilme(locadora->filme[j])){
+                    AlugarFilme(locadora->filme[j]);
+                    custo += ObterValorFilme(locadora->filme[j]);
+                    qtd++;
+                }
+                else {
+                    printf("Filme %d - ", codigos[i]);
+                    ImprimirNomeFilme(locadora->filme[j]);
+                    printf(" nao disponivel no estoque. Volte mais tarde.\n");
+                    //Filme 4 - Shrek nao disponivel no estoque. Volte mais tarde.
+                }
             }
         }
+        if(!vef){
+            printf("Filme %d nao cadastrado.\n", codigos[i]);
+        }
     }
-
-    printf("Total de filmes alugados: %d com custo de R$%d\n", qtd, custo);
+    if(qtd > 0) printf("Total de filmes alugados: %d com custo de R$%d\n", qtd, custo);
     //Total de filmes alugados: 1 com custo de R$5
 }
 
@@ -139,6 +155,6 @@ void ConsultarEstoqueLocadora (tLocadora* locadora){
 }
 
 void ConsultarLucroLocadora (tLocadora* locadora){
-    if(locadora->lucro > 0) printf("Lucro total R$%d\n", locadora->lucro);
+    if(locadora->lucro > 0) printf("\nLucro total R$%d\n", locadora->lucro);
     //Lucro total R$5
 }
