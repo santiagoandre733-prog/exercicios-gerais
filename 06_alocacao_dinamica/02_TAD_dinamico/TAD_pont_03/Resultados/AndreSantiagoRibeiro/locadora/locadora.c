@@ -50,6 +50,7 @@ void LerCadastroLocadora (tLocadora* Locadora){
             CadastrarFilmeLocadora(Locadora, filme);
         }
         else {
+            printf("Filme ja cadastrado no estoque\n");
             DestruirFilme(filme);
         }
     }
@@ -101,15 +102,28 @@ void LerAluguelLocadora (tLocadora* locadora){
 void DevolverFilmesLocadora (tLocadora* locadora, int* codigos, int quantidadeCodigos){
     int i, j;
     for(i = 0; i < quantidadeCodigos; i++){
+        int vef = 0;
         for(j = 0; j < locadora->numFilmes; j++){
             if(EhMesmoCodigoFilme(locadora->filme[j], codigos[i])){
-                DevolverFilme(locadora->filme[j]);
-                locadora->lucro += ObterValorFilme(locadora->filme[j]);
-                printf("Filme %d - ", ObterCodigoFilme(locadora->filme[j]));
-                ImprimirNomeFilme(locadora->filme[j]);
-                printf(" Devolvido!\n");
-                //Filme 1 - A Sociedade Do Anel Devolvido!
+                vef = 1;
+                if(ObterQtdAlugadaFilme(locadora->filme[j]) > 0){
+                    DevolverFilme(locadora->filme[j]);
+                    locadora->lucro += ObterValorFilme(locadora->filme[j]);
+                    printf("Filme %d - ", ObterCodigoFilme(locadora->filme[j]));
+                    ImprimirNomeFilme(locadora->filme[j]);
+                    printf(" Devolvido!\n");
+                    //Filme 1 - A Sociedade Do Anel Devolvido!
+                }
+                else {
+                    printf("Nao e possivel devolver o filme %d - ", codigos[i]);
+                    ImprimirNomeFilme(locadora->filme[j]);
+                    printf(".\n");
+                    //Nao e possivel devolver o filme 1 - Matrix.
+                }
             }
+        }
+        if(!vef){
+            printf("Filme %d nao cadastrado.\n", codigos[i]);
         }
     }
 }
