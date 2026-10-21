@@ -1,0 +1,15 @@
+==80252== Memcheck, a memory error detector
+==80252== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==80252== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==80252== Command: Resultados/AndreSantiagoRibeiro/conta/prog Resultados/AndreSantiagoRibeiro/conta/Casos/3
+==80252== Parent PID: 80251
+==80252== 
+==80252== 
+==80252== HEAP SUMMARY:
+==80252==     in use at exit: 0 bytes in 0 blocks
+==80252==   total heap usage: 14 allocs, 14 frees, 8,653 bytes allocated
+==80252== 
+==80252== All heap blocks were freed -- no leaks are possible
+==80252== 
+==80252== For lists of detected and suppressed errors, rerun with: -s
+==80252== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
