@@ -1,0 +1,32 @@
+==16323== Memcheck, a memory error detector
+==16323== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==16323== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==16323== Command: Resultados/AndreSantiagoRibeiro/operacao/prog Resultados/AndreSantiagoRibeiro/operacao/Casos/1
+==16323== Parent PID: 16322
+==16323== 
+==16323== Invalid free() / delete / delete[] / realloc()
+==16323==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==16323==    by 0x109945: DestroiConta (in /home/asribeiro/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_18/Resultados/AndreSantiagoRibeiro/operacao/prog)
+==16323==    by 0x109A86: DestroiOperacao (in /home/asribeiro/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_18/Resultados/AndreSantiagoRibeiro/operacao/prog)
+==16323==    by 0x109249: DestroiAgencia (in /home/asribeiro/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_18/Resultados/AndreSantiagoRibeiro/operacao/prog)
+==16323==    by 0x109A14: main (in /home/asribeiro/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_18/Resultados/AndreSantiagoRibeiro/operacao/prog)
+==16323==  Address 0x4a911b0 is 0 bytes inside a block of size 8 free'd
+==16323==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==16323==    by 0x109945: DestroiConta (in /home/asribeiro/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_18/Resultados/AndreSantiagoRibeiro/operacao/prog)
+==16323==    by 0x109210: DestroiAgencia (in /home/asribeiro/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_18/Resultados/AndreSantiagoRibeiro/operacao/prog)
+==16323==    by 0x109A14: main (in /home/asribeiro/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_18/Resultados/AndreSantiagoRibeiro/operacao/prog)
+==16323==  Block was alloc'd at
+==16323==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==16323==    by 0x10990D: CriaConta (in /home/asribeiro/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_18/Resultados/AndreSantiagoRibeiro/operacao/prog)
+==16323==    by 0x109394: LeOperacoes (in /home/asribeiro/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_18/Resultados/AndreSantiagoRibeiro/operacao/prog)
+==16323==    by 0x1099E4: main (in /home/asribeiro/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_18/Resultados/AndreSantiagoRibeiro/operacao/prog)
+==16323== 
+==16323== 
+==16323== HEAP SUMMARY:
+==16323==     in use at exit: 0 bytes in 0 blocks
+==16323==   total heap usage: 45 allocs, 75 frees, 9,096 bytes allocated
+==16323== 
+==16323== All heap blocks were freed -- no leaks are possible
+==16323== 
+==16323== For lists of detected and suppressed errors, rerun with: -s
+==16323== ERROR SUMMARY: 30 errors from 1 contexts (suppressed: 0 from 0)
