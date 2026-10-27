@@ -15,7 +15,7 @@ tOperacao* CriaOperacao(tConta* conta, float valor){
 }
 
 void DestroiOperacao(tOperacao* op){
-    DestroiConta(op->conta);
+    //DestroiConta(op->conta);
     free(op);
 }
 

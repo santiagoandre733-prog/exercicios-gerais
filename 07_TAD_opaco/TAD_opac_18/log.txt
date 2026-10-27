@@ -16,14 +16,14 @@ CRIANDO O DIRETÓRIO DE RESULTADO PARA AndreSantiagoRibeiro:
  - Arquivos criados: ok!
 
 CHECKANDO OS ARQUIVOS DO ALUNO:
- - Arquivo esperado 'Respostas/AndreSantiagoRibeiro/agencia.c' não encontrado!
+ - Arquivo esperado 'Respostas/AndreSantiagoRibeiro/agencia.c' encontrado!
  - Arquivo esperado 'Respostas/AndreSantiagoRibeiro/agencia.h' encontrado!
  - Arquivo esperado 'Respostas/AndreSantiagoRibeiro/conta.c' encontrado!
  - Arquivo esperado 'Respostas/AndreSantiagoRibeiro/conta.h' encontrado!
- - Arquivo esperado 'Respostas/AndreSantiagoRibeiro/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/AndreSantiagoRibeiro/main.c' encontrado!
  - Arquivo esperado 'Respostas/AndreSantiagoRibeiro/operacao.c' encontrado!
  - Arquivo esperado 'Respostas/AndreSantiagoRibeiro/operacao.h' encontrado!
- - Arquivos esperados enviados: Faltando!
+ - Arquivos esperados enviados: Ok!
 
 COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Pasta main:
@@ -63,26 +63,26 @@ COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Arquivos copiados: ok!
 
 COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
- - Erro de compilação! Verifique os arquivos da pasta main.
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/main/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta completo ok!
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta operacao ok!
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/operacao/result_compilation.txt
- - Erro de compilação! Verifique os arquivos da pasta agencia.
+ - Compilação dos arquivos do aluno na pasta agencia ok!
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/agencia/result_compilation.txt
  - Compilação dos arquivos do aluno na pasta conta ok!
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/conta/result_compilation.txt
- - Arquivos Compilados: Erro!: 2 arquivos com erros de compilacao.
-
  - Arquivos Compilados: ok!
 
 LINKANDO OS ARQUIVOS COMPILADOS:
  - Pasta main:
  - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/main/result_linking.txt
  - Pasta completo:
  - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/result_linking.txt
  - Pasta operacao:
  - Gerando o binário prog linkando com o(s) arquivo(s) operacao/*.o
@@ -90,90 +90,101 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/operacao/result_linking.txt
  - Pasta agencia:
  - Gerando o binário prog linkando com o(s) arquivo(s) agencia/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/agencia/result_linking.txt
  - Pasta conta:
  - Gerando o binário prog linkando com o(s) arquivo(s) conta/*.o
  - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/conta/result_linking.txt
- - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 35, frees: 35, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 60, frees: 60, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta main (máximo 2.00) - 0 de 40 - 0% de 2.00: 0.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 60, frees: 60, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.00) - 40.00 de 40 - 100.00% de 2.00: 2.00.
  -----
  - Pasta completo / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 35, frees: 35, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 60, frees: 60, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta completo (máximo 2.00) - 0 de 40 - 0% de 2.00: 0.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 60, frees: 60, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.00) - 40.00 de 40 - 100.00% de 2.00: 2.00.
  -----
  - Pasta operacao / Caso 1:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/operacao/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 45, frees: 75, errors: 30 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta operacao / Caso 2:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/operacao/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 35, frees: 55, errors: 20 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 35, frees: 35, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta operacao / Caso 3:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/operacao/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 60, frees: 110, errors: 50 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 60, frees: 60, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta operacao / Caso 4:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/operacao/Casos/4/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 60, frees: 110, errors: 50 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 60, frees: 60, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
- - Nota para a pasta operacao (máximo 2.00) - 20.00 de 40 - 50.00% de 2.00: 1.00.
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta operacao (máximo 2.00) - 40.00 de 40 - 100.00% de 2.00: 2.00.
  -----
  - Pasta agencia / Caso 1:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/agencia/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta agencia / Caso 2:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/agencia/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 35, frees: 35, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta agencia / Caso 3:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/agencia/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 60, frees: 60, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta agencia / Caso 4:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta agencia (máximo 2.00) - 0 de 40 - 0% de 2.00: 0.
+ - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/agencia/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 60, frees: 60, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta agencia (máximo 2.00) - 40.00 de 40 - 100.00% de 2.00: 2.00.
  -----
  - Pasta conta / Caso 1:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/conta/Casos/1/result_valgrind.txt.
@@ -204,31 +215,31 @@ RESULTADOS FINAIS
 
 ----------------------------------------------------------------------------
 Aluno: AndreSantiagoRibeiro
- - Arquivos Esperados Corretos: 5 de 7
- - Pastas Compiladas Corretamente: 3 de 5 
- - Pastas Linkadas Corretamente: 2 de 5
+ - Arquivos Esperados Corretos: 7 de 7
+ - Pastas Compiladas Corretamente: 5 de 5 
+ - Pastas Linkadas Corretamente: 5 de 5
  - Teste main
- - Resultados corretos: 0 de 4
- - Valgrinds corretos: 0 de 4
- - Nota de AndreSantiagoRibeiro para o teste main: 0
+ - Resultados corretos: 4 de 4
+ - Valgrinds corretos: 4 de 4
+ - Nota de AndreSantiagoRibeiro para o teste main: 2.00
  - Teste completo
- - Resultados corretos: 0 de 4
- - Valgrinds corretos: 0 de 4
- - Nota de AndreSantiagoRibeiro para o teste completo: 0
+ - Resultados corretos: 4 de 4
+ - Valgrinds corretos: 4 de 4
+ - Nota de AndreSantiagoRibeiro para o teste completo: 2.00
  - Teste operacao
  - Resultados corretos: 4 de 4
- - Valgrinds corretos: 0 de 4
- - Nota de AndreSantiagoRibeiro para o teste operacao: 1.00
+ - Valgrinds corretos: 4 de 4
+ - Nota de AndreSantiagoRibeiro para o teste operacao: 2.00
  - Teste agencia
- - Resultados corretos: 0 de 4
- - Valgrinds corretos: 0 de 4
- - Nota de AndreSantiagoRibeiro para o teste agencia: 0
+ - Resultados corretos: 4 de 4
+ - Valgrinds corretos: 4 de 4
+ - Nota de AndreSantiagoRibeiro para o teste agencia: 2.00
  - Teste conta
  - Resultados corretos: 4 de 4
  - Valgrinds corretos: 4 de 4
  - Nota de AndreSantiagoRibeiro para o teste conta: 2.00
- - Nota de AndreSantiagoRibeiro: 0+(0)+(0)+(0)+(2.00)+(1.00)
- - Nota de AndreSantiagoRibeiro: 3.00
+ - Nota de AndreSantiagoRibeiro: 0+(2.00)+(2.00)+(2.00)+(2.00)+(2.00)
+ - Nota de AndreSantiagoRibeiro: 10.00
 
 ----------------------------------------------------------------------------
 
