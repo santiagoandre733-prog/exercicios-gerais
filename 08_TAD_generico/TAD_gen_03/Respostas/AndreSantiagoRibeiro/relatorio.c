@@ -12,10 +12,11 @@ void ImprimeRelatorio(Vector *alunos){
         if(c == 'M') somaM++;
         else if(c == 'F') somaF++;
         else if(c == 'O') somaO++;
-        int n = GetNotaAluno(VectorGet(alunos, i));
+        float n = GetNotaAluno(VectorGet(alunos, i));
         somaN += n;
         if(n >= 6) somaA++;
     }
+
 
     printf("Media das notas: %.2f\n", somaN/VectorSize(alunos));
     printf("Porcentagem de alunos aprovados: %.2f%%\n", (float)somaA/VectorSize(alunos)*100);
