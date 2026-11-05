@@ -8,6 +8,7 @@ struct pacote {
     int tipo;
     int tam;
     int bytes;
+    int soma;
 };
 
 tPacote* CriaPacote(Type type, int numElem){
@@ -33,14 +34,57 @@ void DestroiPacote(tPacote* pac){
 
 void LePacote(tPacote* pac){
     int i;
+    scanf(" ");
     if(pac->tipo == INT) {
         for(i = 0; i < pac->tam; i++){
-            scanf("%d ", ((int*)pac->vetor)[i]);
+            int n;
+            scanf("%d ", &n);
+            //((int*)pac->vetor)[i] = n;
+            memcpy(pac->vetor + i*pac->bytes, &n, pac->bytes);
         }
     }
     else if(pac->tipo == CHAR) {
         for(i = 0; i < pac->tam; i++){
-            scanf("%c", ((int*)pac->vetor)[i]);
+            char c;
+            scanf("%c", &c);
+            //((char*)pac->vetor)[i] = c;
+            memcpy(pac->vetor + i*pac->bytes, &c, pac->bytes);
+        }
+        //scanf(" ");
+    }
+    //scanf("%[^\n]\n");
+}
+
+void ImprimePacote(tPacote* pac){
+    CalculaSomaVerificacaoPacote(pac);
+    printf("%d ", pac->soma);
+    if(pac->tipo == INT){
+        int i;
+        for(i = 0; i < pac->tam; i++){
+            printf("%d", ((int*)pac->vetor)[i]);
+            if(i < pac->tam - 1) printf(" ");
+        }
+    }
+    else if(pac->tipo == CHAR){
+        int i;
+        for(i = 0; i < pac->tam; i++){
+            printf("%c", ((char*)pac->vetor)[i]);
+        }
+    }
+    printf("\n");
+}
+
+void CalculaSomaVerificacaoPacote(tPacote* pac){
+    pac->soma = 0;
+    int i;
+    if(pac->tipo == INT){
+        for(i = 0; i < pac->tam; i++){
+            pac->soma += ((int*)pac->vetor)[i];
+        }
+    }
+    else if(pac->tipo == CHAR){
+        for(i = 0; i < pac->tam; i++){
+            pac->soma += ((char*)pac->vetor)[i];
         }
     }
 }
