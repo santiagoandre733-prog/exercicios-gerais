@@ -1,0 +1,31 @@
+==147843== Memcheck, a memory error detector
+==147843== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==147843== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==147843== Command: Resultados/AndreSantiagoRibeiro/matrizgenerica/prog Resultados/AndreSantiagoRibeiro/matrizgenerica/Casos/7
+==147843== Parent PID: 147842
+==147843== 
+==147843== Invalid free() / delete / delete[] / realloc()
+==147843==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==147843==    by 0x109DE5: MultiplicaMatrizes (in /home/asribeiro/Downloads/exercicios-gerais/08_TAD_generico/TAD_gen_06/Resultados/AndreSantiagoRibeiro/matrizgenerica/prog)
+==147843==    by 0x1098DA: main (in /home/asribeiro/Downloads/exercicios-gerais/08_TAD_generico/TAD_gen_06/Resultados/AndreSantiagoRibeiro/matrizgenerica/prog)
+==147843==  Address 0x4a915f0 is 0 bytes inside a block of size 8 free'd
+==147843==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==147843==    by 0x109DD1: MultiplicaMatrizes (in /home/asribeiro/Downloads/exercicios-gerais/08_TAD_generico/TAD_gen_06/Resultados/AndreSantiagoRibeiro/matrizgenerica/prog)
+==147843==    by 0x1098DA: main (in /home/asribeiro/Downloads/exercicios-gerais/08_TAD_generico/TAD_gen_06/Resultados/AndreSantiagoRibeiro/matrizgenerica/prog)
+==147843==  Block was alloc'd at
+==147843==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==147843==    by 0x109F1C: CriaNumComplexo (in /home/asribeiro/Downloads/exercicios-gerais/08_TAD_generico/TAD_gen_06/Resultados/AndreSantiagoRibeiro/matrizgenerica/prog)
+==147843==    by 0x10A0B0: MultComplexos (in /home/asribeiro/Downloads/exercicios-gerais/08_TAD_generico/TAD_gen_06/Resultados/AndreSantiagoRibeiro/matrizgenerica/prog)
+==147843==    by 0x1093BE: mult_cplx (in /home/asribeiro/Downloads/exercicios-gerais/08_TAD_generico/TAD_gen_06/Resultados/AndreSantiagoRibeiro/matrizgenerica/prog)
+==147843==    by 0x109D9D: MultiplicaMatrizes (in /home/asribeiro/Downloads/exercicios-gerais/08_TAD_generico/TAD_gen_06/Resultados/AndreSantiagoRibeiro/matrizgenerica/prog)
+==147843==    by 0x1098DA: main (in /home/asribeiro/Downloads/exercicios-gerais/08_TAD_generico/TAD_gen_06/Resultados/AndreSantiagoRibeiro/matrizgenerica/prog)
+==147843== 
+==147843== 
+==147843== HEAP SUMMARY:
+==147843==     in use at exit: 0 bytes in 0 blocks
+==147843==   total heap usage: 75 allocs, 79 frees, 9,132 bytes allocated
+==147843== 
+==147843== All heap blocks were freed -- no leaks are possible
+==147843== 
+==147843== For lists of detected and suppressed errors, rerun with: -s
+==147843== ERROR SUMMARY: 4 errors from 1 contexts (suppressed: 0 from 0)

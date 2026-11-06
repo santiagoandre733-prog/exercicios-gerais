@@ -1,0 +1,7 @@
+matrizgenerica.c: In function ‘MultiplicaMatrizes’:
+matrizgenerica.c:87:17: warning: pointer ‘mult0’ used after ‘free’ [-Wuse-after-free]
+   87 |                 free(mult0);
+      |                 ^~~~~~~~~~~
+matrizgenerica.c:84:17: note: call to ‘free’ here
+   84 |                 free(mult0);
+      |                 ^~~~~~~~~~~
