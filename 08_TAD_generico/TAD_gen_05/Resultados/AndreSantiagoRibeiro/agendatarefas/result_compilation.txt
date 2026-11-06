@@ -1,0 +1,11 @@
+agendatarefas.c: In function ‘ExecutarTarefasDaAgenda’:
+agendatarefas.c:50:5: warning: implicit declaration of function ‘OrdenaTarefas’ [-Wimplicit-function-declaration]
+   50 |     OrdenaTarefas(tar);
+      |     ^~~~~~~~~~~~~
+agendatarefas.c: At top level:
+agendatarefas.c:57:6: warning: conflicting types for ‘OrdenaTarefas’; have ‘void(tAgendaTarefas *)’ {aka ‘void(struct agendatarefas *)’}
+   57 | void OrdenaTarefas(tAgendaTarefas* tar){
+      |      ^~~~~~~~~~~~~
+agendatarefas.c:50:5: note: previous implicit declaration of ‘OrdenaTarefas’ with type ‘void(tAgendaTarefas *)’ {aka ‘void(struct agendatarefas *)’}
+   50 |     OrdenaTarefas(tar);
+      |     ^~~~~~~~~~~~~
