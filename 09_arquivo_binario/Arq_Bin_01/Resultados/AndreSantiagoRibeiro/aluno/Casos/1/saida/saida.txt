@@ -1,4 +1,4 @@
-Digite o numero de alunos: Numero de bytes salvos: 150
+Digite o numero de alunos: Numero de bytes salvos: 179
 Aluno 0:
 Nome: Seraphina Luminara
 Data Nascimento: 12 de julho de 2995

@@ -1,4 +1,4 @@
-Digite o numero de alunos: Numero de bytes salvos: 323
+Digite o numero de alunos: Numero de bytes salvos: 391
 Aluno 0:
 Nome: Aria Nocturne
 Data Nascimento: 17/09/2988

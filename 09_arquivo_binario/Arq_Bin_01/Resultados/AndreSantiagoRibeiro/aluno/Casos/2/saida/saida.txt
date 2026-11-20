@@ -1,4 +1,4 @@
-Digite o numero de alunos: Numero de bytes salvos: 236
+Digite o numero de alunos: Numero de bytes salvos: 278
 Aluno 0:
 Nome: Lyra Celestia
 Data Nascimento: 21 de fevereiro de 2980

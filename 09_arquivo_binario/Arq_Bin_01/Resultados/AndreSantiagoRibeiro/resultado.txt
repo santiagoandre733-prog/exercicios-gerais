@@ -10,8 +10,8 @@ Teste completo
   - Valgrinds corretos: 0 de 3
 Nota de AndreSantiagoRibeiro para o teste completo: 0
 Teste aluno
-  - Resultados corretos: 0 de 3
+  - Resultados corretos: 3 de 3
   - Valgrinds corretos: 3 de 3
-Nota de AndreSantiagoRibeiro para o teste aluno: 0
-Nota de AndreSantiagoRibeiro: 0+(0)+(0)+(0)
-Nota de AndreSantiagoRibeiro: 0
+Nota de AndreSantiagoRibeiro para o teste aluno: 3.34
+Nota de AndreSantiagoRibeiro: 0+(3.34)+(0)+(0)
+Nota de AndreSantiagoRibeiro: 3.34

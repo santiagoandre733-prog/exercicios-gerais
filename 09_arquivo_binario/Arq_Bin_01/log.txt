@@ -97,19 +97,19 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta aluno / Caso 1:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/aluno/Casos/1/result_valgrind.txt.
  - Valgrind: Ok! allocs: 12, frees: 12, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta aluno / Caso 2:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/aluno/Casos/2/result_valgrind.txt.
  - Valgrind: Ok! allocs: 14, frees: 14, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta aluno / Caso 3:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/aluno/Casos/3/result_valgrind.txt.
  - Valgrind: Ok! allocs: 18, frees: 18, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o saida.txt: Incorreto! Peso: 0.0
- - Nota para o Caso (soma dos pesos): 0 (soma total) - 0% (desconto do valgrind) = 0 de 10 pontos.
- - Nota para a pasta aluno (máximo 3.34) - 0 de 30 - 0% de 3.34: 0.
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta aluno (máximo 3.34) - 30.00 de 30 - 100.00% de 3.34: 3.34.
  -----
 
 #######################################
@@ -130,11 +130,11 @@ Aluno: AndreSantiagoRibeiro
  - Valgrinds corretos: 0 de 3
  - Nota de AndreSantiagoRibeiro para o teste completo: 0
  - Teste aluno
- - Resultados corretos: 0 de 3
+ - Resultados corretos: 3 de 3
  - Valgrinds corretos: 3 de 3
- - Nota de AndreSantiagoRibeiro para o teste aluno: 0
- - Nota de AndreSantiagoRibeiro: 0+(0)+(0)+(0)
- - Nota de AndreSantiagoRibeiro: 0
+ - Nota de AndreSantiagoRibeiro para o teste aluno: 3.34
+ - Nota de AndreSantiagoRibeiro: 0+(3.34)+(0)+(0)
+ - Nota de AndreSantiagoRibeiro: 3.34
 
 ----------------------------------------------------------------------------
 
