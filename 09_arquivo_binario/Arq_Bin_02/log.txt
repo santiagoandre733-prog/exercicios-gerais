@@ -121,25 +121,25 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  -----
  - Pasta base_alunos / Caso 1:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/base_alunos/Casos/1/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 11, frees: 11, errors: 45 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 11, frees: 11, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta base_alunos / Caso 2:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/base_alunos/Casos/2/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 12, frees: 12, errors: 86 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 12, frees: 12, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta base_alunos / Caso 3:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/base_alunos/Casos/3/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 13, frees: 13, errors: 45 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 13, frees: 13, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta base_alunos / Caso 4:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/base_alunos/Casos/4/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 10, frees: 10, errors: 45 | Desconto do valgrind 50.00%
+ - Valgrind: Ok! allocs: 10, frees: 10, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
- - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 50.0% (desconto do valgrind) = 5.00 de 10 pontos.
- - Nota para a pasta base_alunos (máximo 2.50) - 20.00 de 40 - 50.00% de 2.50: 1.25.
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta base_alunos (máximo 2.50) - 40.00 de 40 - 100.00% de 2.50: 2.50.
  -----
  - Pasta aluno / Caso 1:
  - Arquivo de output gerado: Resultados/AndreSantiagoRibeiro/aluno/Casos/1/result_valgrind.txt.
@@ -183,14 +183,14 @@ Aluno: AndreSantiagoRibeiro
  - Nota de AndreSantiagoRibeiro para o teste completo: 0
  - Teste base_alunos
  - Resultados corretos: 4 de 4
- - Valgrinds corretos: 0 de 4
- - Nota de AndreSantiagoRibeiro para o teste base_alunos: 1.25
+ - Valgrinds corretos: 4 de 4
+ - Nota de AndreSantiagoRibeiro para o teste base_alunos: 2.50
  - Teste aluno
  - Resultados corretos: 4 de 4
  - Valgrinds corretos: 4 de 4
  - Nota de AndreSantiagoRibeiro para o teste aluno: 2.50
- - Nota de AndreSantiagoRibeiro: 0+(1.25)+(2.50)+(0)+(0)
- - Nota de AndreSantiagoRibeiro: 3.75
+ - Nota de AndreSantiagoRibeiro: 0+(2.50)+(2.50)+(0)+(0)
+ - Nota de AndreSantiagoRibeiro: 5.00
 
 ----------------------------------------------------------------------------
 

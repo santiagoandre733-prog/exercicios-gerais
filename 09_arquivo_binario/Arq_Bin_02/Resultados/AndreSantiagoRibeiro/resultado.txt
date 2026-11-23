@@ -11,11 +11,11 @@ Teste completo
 Nota de AndreSantiagoRibeiro para o teste completo: 0
 Teste base_alunos
   - Resultados corretos: 4 de 4
-  - Valgrinds corretos: 0 de 4
-Nota de AndreSantiagoRibeiro para o teste base_alunos: 1.25
+  - Valgrinds corretos: 4 de 4
+Nota de AndreSantiagoRibeiro para o teste base_alunos: 2.50
 Teste aluno
   - Resultados corretos: 4 de 4
   - Valgrinds corretos: 4 de 4
 Nota de AndreSantiagoRibeiro para o teste aluno: 2.50
-Nota de AndreSantiagoRibeiro: 0+(1.25)+(2.50)+(0)+(0)
-Nota de AndreSantiagoRibeiro: 3.75
+Nota de AndreSantiagoRibeiro: 0+(2.50)+(2.50)+(0)+(0)
+Nota de AndreSantiagoRibeiro: 5.00

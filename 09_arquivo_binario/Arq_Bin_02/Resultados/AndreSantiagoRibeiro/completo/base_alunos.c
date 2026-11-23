@@ -37,7 +37,7 @@ void LerBaseAlunos(tBaseAlunos* baseAlunos, char* nomeArquivo){
 }
 
 float GetCoeficienteRendimentoMedioBaseAlunos(tBaseAlunos* baseAlunos){
-    float soma;
+    float soma = 0;
     int i;
     for(i = 0; i < baseAlunos->qtdAlunos; i++){
         soma += GetCoeficienteRendimentoAluno(baseAlunos->alunos[i]);
