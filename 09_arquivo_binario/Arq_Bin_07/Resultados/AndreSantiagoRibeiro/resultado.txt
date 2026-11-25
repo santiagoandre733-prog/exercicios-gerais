@@ -1,6 +1,6 @@
-Arquivos Esperados Corretos: 5 de 9
-Pastas Compiladas Corretamente: 2 de 6 
-Pastas Linkadas Corretamente: 1 de 6
+Arquivos Esperados Corretos: 6 de 9
+Pastas Compiladas Corretamente: 3 de 6 
+Pastas Linkadas Corretamente: 2 de 6
 Teste main
   - Resultados corretos: 0 de 3
   - Valgrinds corretos: 0 de 3
@@ -11,7 +11,7 @@ Teste completo
 Nota de AndreSantiagoRibeiro para o teste completo: 0
 Teste aluno
   - Resultados corretos: 0 de 3
-  - Valgrinds corretos: 0 de 3
+  - Valgrinds corretos: 3 de 3
 Nota de AndreSantiagoRibeiro para o teste aluno: 0
 Teste database
   - Resultados corretos: 0 de 3

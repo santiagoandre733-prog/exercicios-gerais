@@ -1,1 +1,22 @@
-valgrind: Resultados/AndreSantiagoRibeiro/aluno/prog: No such file or directory
+Numero de bytes salvos: 2106
+Numero de bytes lidos: 2106
+
+Alunos:
+Andre
+Carolina
+Juliana
+Leticia
+Lucas
+Victor
+
+Professores:
+Adriano
+Alexandre
+Anderson
+Beatriz
+Camila
+Larissa
+Luiz
+Patricia
+Renata
+Roberto
